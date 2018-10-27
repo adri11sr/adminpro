@@ -6,6 +6,7 @@ import { APP_ROUTES } from './app.routes';
 
 // MODULOS
 import { PagesModule } from './pages/pages.module';
+import { FormsModule } from '@angular/forms';
 
 // COMPONENTS
 import { AppComponent } from './app.component';
@@ -20,11 +21,12 @@ import { SidebarService } from './services/sidebar.service';
   declarations: [
     AppComponent,
     LoginComponent,
-    RegisterComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
     PagesModule,
+    FormsModule,
     APP_ROUTES
   ],
   providers: [
