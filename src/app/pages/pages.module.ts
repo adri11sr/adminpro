@@ -7,6 +7,8 @@ import { ChartsModule } from 'ng2-charts';
 import { BrowserModule } from '@angular/platform-browser';
 import { CommonModule } from '@angular/common';
 import { PipesModule } from '../pipes/pipes.module';
+import { ModalUploadComponent } from '../components/modal-upload/modal-upload.component';
+
 
 // ROUTES
 import { PAGES_ROUTES } from './pages.routes';
@@ -25,6 +27,7 @@ import { GraficoDonaComponent } from '../components/grafico-dona/grafico-dona.co
 import { PromesasComponent } from './promesas/promesas.component';
 import { RxjsComponent } from './rxjs/rxjs.component';
 import { ProfileComponent } from './profile/profile.component';
+import { UsuariosComponent } from './usuarios/usuarios.component';
 
 @NgModule({
     declarations: [
@@ -37,7 +40,9 @@ import { ProfileComponent } from './profile/profile.component';
         AccountSettingsComponent,
         PromesasComponent,
         RxjsComponent,
-        ProfileComponent
+        ProfileComponent,
+        UsuariosComponent,
+        ModalUploadComponent
     ],
     exports: [
         DashboardComponent,

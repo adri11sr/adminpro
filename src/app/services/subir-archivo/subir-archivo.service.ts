@@ -1,6 +1,4 @@
 import { Injectable } from '@angular/core';
-import { resolve } from 'dns';
-import { reject } from 'q';
 import { URL_SERVICIOS } from '../../config/config';
 
 @Injectable({
